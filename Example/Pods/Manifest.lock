@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - HostSetting (1.0.0)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta
+  - HostSetting (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  HostSetting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  HostSetting: 0d226b91b0adf8b1a8202a96233eb725a17a722e
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: 089fac2e622b672b467e0277899037432439858c
+
+COCOAPODS: 1.1.1

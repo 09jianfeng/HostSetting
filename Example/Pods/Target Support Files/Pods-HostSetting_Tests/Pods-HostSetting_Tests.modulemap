@@ -1,0 +1,6 @@
+framework module Pods_HostSetting_Tests {
+  umbrella header "Pods-HostSetting_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

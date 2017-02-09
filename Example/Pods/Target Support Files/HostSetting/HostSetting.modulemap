@@ -1,0 +1,6 @@
+framework module HostSetting {
+  umbrella header "HostSetting-umbrella.h"
+
+  export *
+  module * { export * }
+}

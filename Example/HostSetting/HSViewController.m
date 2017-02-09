@@ -1,4 +1,4 @@
-//
+// 
 //  HSViewController.m
 //  HostSetting
 //
@@ -7,6 +7,7 @@
 //
 
 #import "HSViewController.h"
+#import "MyURLProtocolHostEdit.h"
 
 @interface HSViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [MyURLProtocolHostEdit addHost:@"www.baidu.com" ip:@"192.168.1.1"];
 }
 
 - (void)didReceiveMemoryWarning

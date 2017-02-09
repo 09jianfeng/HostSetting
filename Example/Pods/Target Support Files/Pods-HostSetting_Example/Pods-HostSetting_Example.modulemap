@@ -1,0 +1,6 @@
+framework module Pods_HostSetting_Example {
+  umbrella header "Pods-HostSetting_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
